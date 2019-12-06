@@ -167,7 +167,7 @@ function App() {
         <Row style={{ marginTop: '20px' }}>
           <Col sm={{ size: 6, offset: 3 }}>
             <Alert color='light' className='text-center'>
-              <code>{message}</code>
+              <code id='register-message'>{message}</code>
             </Alert>
           </Col>
         </Row>

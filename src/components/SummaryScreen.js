@@ -22,7 +22,8 @@ function SummaryScreen(props) {
         <Col sm='1'></Col>
         {Object.keys(cash).map(key => (
           <Col sm='2' key={key}>
-            {cash[key]}&nbsp;&times;&nbsp;${key}
+            <span id={`bill-count-${key}`}>{cash[key]}</span>
+            &nbsp;&times;&nbsp;${key}
           </Col>
         ))}
         <Col sm='1'></Col>
